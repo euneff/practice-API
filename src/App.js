@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Comments from './components/Comments.js';
 
 function App() {
   return (
     <div className="App">
+      <Comments/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
